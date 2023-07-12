@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "workspaces": [
       "host-app",
-      "modules/header-react"
+      "modules/header-react",
+      "modules/footer-react"
     ],
     "scripts": {
       "build": "npm run build --workspaces",

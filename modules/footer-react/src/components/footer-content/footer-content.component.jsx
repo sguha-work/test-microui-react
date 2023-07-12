@@ -1,7 +1,7 @@
-function FooterContentComponent() {
+function FooterContent() {
   return (
-    <div>FooterContentComponent</div>
+    <div>FooterContent</div>
   )
 }
 
-export default FooterContentComponent
+export default FooterContent;

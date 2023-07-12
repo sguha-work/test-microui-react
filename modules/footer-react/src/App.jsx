@@ -1,11 +1,11 @@
 import CopyrightComponent from "./components/copyright/copyright.component"
-import FooterContentComponent from "./components/footer-content/footer-content.component"
+import FooterContent from "./components/footer-content/footer-content.component"
 
 function App() {
   return (
     <>
       <div>
-        <FooterContentComponent></FooterContentComponent>
+        <FooterContent></FooterContent>
         <CopyrightComponent></CopyrightComponent>
         </div>
     </>

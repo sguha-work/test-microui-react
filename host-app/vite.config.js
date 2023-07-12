@@ -8,9 +8,9 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: 'header',
       remotes: {
         header: 'http://localhost:5001/assets/header.js',
+        footer: 'http://localhost:5002/assets/footer.js'
       },
       shared: ['react']
     })
